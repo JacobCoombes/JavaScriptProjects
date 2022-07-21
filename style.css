@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    /* flex-direction: column; */
+    
+}
+
+button {
+    height: 10em;
+    width: 10em;
+    margin: 1em;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5em;
+}
+
+#number {       
+    font-size: 10rem;
+    margin-bottom: .35em;
+}
